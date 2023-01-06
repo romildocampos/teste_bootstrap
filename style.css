@@ -8,6 +8,7 @@
     .row {
         height: 500px;
         padding: 100px;
+        flex-direction: column;
     }
 
     h2 {
