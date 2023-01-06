@@ -1,4 +1,4 @@
-/*Teste 3*/
+/*Teste 4*/
 /*Extra Grande*/
 @media (max-width: 1400px) { 
     body {
@@ -6,17 +6,25 @@
     }
 
     .row {
-        height: 100px;
+        height: 500px;
         padding: 100px;
     }
 
-    h1 {
-        text-align: center;
+    h2 {
+        color: chartreuse;
+        margin-top: 150px;
     }
+
+    #p_seguranca_todos {
+        margin-top: 150px;
+        color: white;
+    }
+
     
     
- }
-/*Grande*/
+} 
+ 
+
 @media (max-width: 1200px) {
     body {
         background-color: fuchsia;
@@ -28,17 +36,31 @@
         text-align: center;
     }
     .row {
-        height: 100px;
-        padding: 50px;
+        
+        
     }
-    /*img {
-        margin-left:-30px;
-        margin-right: -2;
-    }*/
+
+    h2 {
+        color: chartreuse;
+        margin-top: 150px;
+    }
+
+    #p_seguranca_todos {
+        margin-top: 40px;
+        color: white;
+    }
+   
+    
 
     p {
         padding: 50px;
         text-align: center;
+    }
+
+    .img_tela2 {
+        width: 100px;
+        height: 40%;
+        
     }
     
 }
@@ -65,12 +87,13 @@ img {
     }
     h2 {
         text-align: center;
+        margin-right: 40px;
     }
 
-    /*img {
+    img {
         margin-left:-30px;
         margin-right: -2;
-    }*/
+    }
 
     p {
         padding: 50px;
@@ -91,6 +114,8 @@ img {
     }
     h2 {
         text-align: center;
+        color: blue;
+        margin-right: 50px;
     }
 
     /*img {
@@ -101,6 +126,7 @@ img {
     p {
         padding: 50px;
         text-align: center;
+        margin-left: -40px;
     }
 
 }
