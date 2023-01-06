@@ -1,25 +1,18 @@
-body {
-    background-color: blue;
-}
+/*Teste 3*/
 /*Extra Grande*/
 @media (max-width: 1400px) { 
     body {
         background-color: dimgray;
     }
 
+    .row {
+        height: 100px;
+        padding: 100px;
+    }
+
     h1 {
         text-align: center;
     }
-
-    img {
-        width: 500px;
-        margin-left: -100px;
-    }
-
-    .row {
-        
-    }
-
     
     
  }
@@ -28,32 +21,56 @@ body {
     body {
         background-color: fuchsia;
     }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    .row {
+        height: 100px;
+        padding: 50px;
+    }
+    /*img {
+        margin-left:-30px;
+        margin-right: -2;
+    }*/
+
+    p {
+        padding: 50px;
+        text-align: center;
+    }
     
 }
 /*Intermediário*/
 @media (max-width: 992px) { 
-    body {
-        background-color:blueviolet;
-    }
+    
+h1 {
+    text-align: center;
+}
 
-    .row {
-        flex-direction: column;
-    }
+img {
+    align-items: center;
+}
+    
+    
  }
 /*Medio*/
 @media (max-width: 768px) { 
     body {
         background-color:crimson;
     }
-
+    h1 {
+        text-align: center;
+    }
     h2 {
         text-align: center;
     }
 
-    img {
+    /*img {
         margin-left:-30px;
         margin-right: -2;
-    }
+    }*/
 
     p {
         padding: 50px;
@@ -68,6 +85,22 @@ body {
     body {
         background-color: greenyellow;
     }
-    
+
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    /*img {
+        margin-left:-30px;
+        margin-right: -2;
+    }*/
+
+    p {
+        padding: 50px;
+        text-align: center;
+    }
 
 }
